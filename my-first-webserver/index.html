@@ -1,0 +1,351 @@
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>#1 Tutorial: My first Webserver</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=b2061fecbd"> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
+
+    <link rel="canonical" href="index.html">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Node.js">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="#1 Tutorial: My first Webserver">
+    <meta property="og:description" content="In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website. You will be guided through installing Node....">
+    <meta property="og:url" content="http://localhost:2368/my-first-webserver/">
+    <meta property="article:published_time" content="2015-12-07T01:47:41.051Z">
+    <meta property="article:modified_time" content="2016-02-04T14:39:24.627Z">
+    <meta property="article:tag" content="Day 1">
+    <meta property="article:tag" content="Node.js">
+    <meta property="article:tag" content="Getting Started">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="#1 Tutorial: My first Webserver">
+    <meta name="twitter:description" content="In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website. You will be guided through installing Node....">
+    <meta name="twitter:url" content="http://localhost:2368/my-first-webserver/">
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Node.js",
+    "author": {
+        "@type": "Person",
+        "name": "Claus Bové",
+        "image": "//www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s=250&d=mm&r=x",
+        "url": "http://localhost:2368/author/clbo",
+        "sameAs": null,
+        "description": null
+    },
+    "headline": "#1 Tutorial: My first Webserver",
+    "url": "http://localhost:2368/my-first-webserver/",
+    "datePublished": "2015-12-07T01:47:41.051Z",
+    "dateModified": "2016-02-04T14:39:24.627Z",
+    "keywords": "Day 1, Node.js, Getting Started",
+    "description": "In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website. You will be guided through installing Node...."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Node.js" href="../rss/index.html">
+    <!-- inserted by lbo -->
+<style>
+    /*pre {background-color: #333; color: #fff}*/
+    .scroll-down {display : none !important}
+    </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body class="post-template tag-day-1 tag-node-js tag-getting-started nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="index.html#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="../">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="../about">About</a></li>
+            <li class="nav-exam-requirements" role="presentation"><a href="../exam-requirements/">Exam Requirements</a></li>
+            <li class="nav-mandatory-assignments" role="presentation"><a href="http://localhost:2368/mandatory-assignments/">Mandatory Assignments</a></li>
+            <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs">Github Repositories</a></li>
+            <li class="nav-curriculum" role="presentation"><a href="../29">Curriculum</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="../rss/index.rss">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="blog-logo" href="../"><img src="../content/images/2016/01/nodejs-logo.png" alt="Node.js"></a>
+            <a class="menu-button icon-menu" href="index.html#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-day-1 tag-node-js tag-getting-started">
+
+        <header class="post-header">
+            <h1 class="post-title">#1 Tutorial: My first Webserver</h1>
+            <section class="post-meta">
+               <!-- <time class="post-date" datetime="2015-12-07">07 December 2015</time> -->  tags:  <a href="../tag/day-1/">Day 1</a>, <a href="../tag/node-js/">Node.js</a>, <a href="../tag/getting-started/">Getting Started</a>
+            </section> 
+        </header>
+
+        <section class="post-content">
+            <p>In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website.</p>
+
+<p>You will be guided through installing Node.js on your computer, creating a webserver on your Node.js installation. This webserver will be accessable to anyone on the local network you are currently on. Then you will create an account at Heroku, a host, where you will be deploying your new website. At the end you will be deploying the website to Azure and you will have your first Node.js public accesable website up and running.</p>
+
+<h2 id="installingnodejs">Installing Node.js</h2>
+
+<p>First of all you need to download and install Node.js. The Installations is pretty straight forward, but if you need it,  guides kan be found here:</p>
+
+<ul>
+<li><a href="index.html">Installing Node.js on a Mac</a></li>
+<li><a href="index.html">Installing Node.js on Windows</a></li>
+<li><a href="index.html">Installing Node.js on Linux</a></li>
+</ul>
+
+<p>To test if your installation went ok, and that you have Node.js on your computer, open the console and type:</p>
+
+<pre>node --version</pre>
+
+<p>Then you should see something like this:</p>
+
+<pre>node --version
+v0.12.7</pre>
+
+<p>The version number could differ in your case. If you do not see this, something went wrong in the installation process, and try to install Node.js again.</p>
+
+<h2 id="createalocalwebserver">Create a local Webserver</h2>
+
+<p>Now let´s create our first server. Create a folder and in it a file called server.js, containing the following code.</p>
+
+<pre><code class="language-prettyprint javascript">    var http = require('http');
+    http.createServer(function (req, res) {
+      res.writeHead(200, {'Content-Type': 'text/plain'});
+      res.end('Hello World\n');
+    }).listen(3000);
+</code></pre>
+
+<p>Start the server from the console by browsing to the folder you just created and type:</p>
+
+<pre><code class="language-javascript   ">   node server.js   
+</code></pre>
+
+<p>Now open your browser and type in the url: <a href="http://localhost:3000/">http://localhost:3000/</a></p>
+
+<p><img src="../content/images/2015/12/Screen-Shot-2015-08-20-at-20-43-51.png" alt=""></p>
+
+<p>If what you made now is indeed a webserver, and not just a document saying “Hello World”,  you should be able to access this site from you phone or another computer.</p>
+
+<p>Get the ip-address of you machine (the server) and then make sure that your phone is on the same network as your computer (the server). Type in 10.108.10.86:3000 (this is my ip, you should of cause use yours).</p>
+
+<p><img src="../content/images/2015/12/iphone-6-verizon-volte.png" alt=""></p>
+
+<p>Hopefully you see this, otherwise: “are your devices on the same network” ?</p>
+
+<h2 id="makeyoursitepublictotheworld">Make your site public to the world</h2>
+
+<p>Let´s put your site online and “make it public to the world”.</p>
+
+<h3 id="microsoftazure">Microsoft Azure</h3>
+
+<p>In order to go online you´ll need to create an account with a host (a server where you buy, or get for free, some space where you can put your sites).</p>
+
+<p>In connection with this elective you will get a 6 month free access pass at Microsoft Azure.</p>
+
+<p>So go ahead and create your account. You will need a Promotion Code which you will get from your teacher.</p>
+
+<p>Then you should browse to this url (www.microsoftazurepass.com) and follow the steps in this tutorial.</p>
+
+<p>So fare so good, you have created an account at Azure!</p>
+
+<p>Before you deploy your site, you will need to create a new file, and make a small change to the server.js file.</p>
+
+<h3 id="packagejson">Package.json</h3>
+
+<p>Now you need to create a file with descriptions about the the application you are building.</p>
+
+<p>In the folder where you have your server.js file, create another file and call it package.json</p>
+
+<p>Put in the following content  </p>
+
+<pre><code class="language-prettyprint json">{
+  "name": "tutorial-my-first-webserver",
+  "version": "0.0.1",
+  "description": "tutorial used in first class",
+  "main": "server.js",
+  "scripts": {
+       "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
+       "start": "node server.js"
+     },
+  "engines":{"node" : "0.12.x"},
+  "author": "clbo",
+  "license": "MIT"
+}
+</code></pre>
+
+<p>Then you need to change a little in your server.js file</p>
+
+<p>In the last line you should replace <code>listen(3000)</code> with <br>
+listen(process.env.PORT || 3000)</p>
+
+<pre><code class="language-prettyprint javascript">    var http = require('http'); 
+
+    http.createServer(function (req, res) { 
+      res.writeHead(200, {'Content-Type' : 'text/plain'}); 
+      res.write('Hello World\n'); 
+      res.end(); 
+    }).listen(process.env.PORT || 3000);
+</code></pre>
+
+<p>This is because that Azure dynamically assigns a port number to your application, and this you can get by using process.env.PORT.</p>
+
+<h2 id="createawebappatazure">Create a Web App at Azure</h2>
+
+<ul>
+<li>Log in to the Azure Portal.</li>
+<li>Click the + NEW icon on the top left of the portal</li>
+<li>Click Web + Mobile, then Web app.</li>
+</ul>
+
+<p>Enter a value for URL. (The unique identity of your site and name in the url) <br>
+Select an App Service plan or create a new one. If you create a new plan, select the pricing tier, location, and other options.</p>
+
+<p>Click Create. <br>
+Once the status changes to Running, the portal will automatically open the blade for your web app. You can also reach the blade by clicking Browse.</p>
+
+<p>Click Deployment. You may need to scroll to see this part of the blade.</p>
+
+<p>Click Choose Source, then Local Git Repository. Click OK.</p>
+
+<p>Click the deployment credentials part (outlined in red below). Create a user name and password. Click Save. If you have previously enabled publishing for an web app, you don’t need to do this step.</p>
+
+<p>To publish, you will push to a Git remote repository. Find the URL for repository, click All Settings, then click Properties. The URL is listed under “GIT URL”.</p>
+
+<p><a href="https://azure.microsoft.com/da-dk/documentation/articles/web-sites-nodejs-develop-deploy-mac/">https://azure.microsoft.com/da-dk/documentation/articles/web-sites-nodejs-develop-deploy-mac/</a></p>
+
+<p>Now you have a place to deploy to, now you just need to deploy your site using Git</p>
+
+<h3 id="deployyoursiteusinggit">Deploy your site using Git</h3>
+
+<p>In you console make sure you are in the folder with the sever.js and package.json file and the type</p>
+
+<pre><code>git init
+</code></pre>
+
+<p>This initializes git in your folder.</p>
+
+<pre><code>git add .
+</code></pre>
+
+<p>This adds server.js and package.json to git.</p>
+
+<pre><code>git commit -m "Initial commit"
+</code></pre>
+
+<p>Before you can push your files to Azure you will need (the first time) to create a link to the server by writing:</p>
+
+<pre><code>git remote add azure https://username@sitename.scm.azurewebsites.net:443/sitename.git
+</code></pre>
+
+<p>the url you can get from azure.</p>
+
+<p>Push the files to Azure.</p>
+
+<pre><code>git push azure master
+</code></pre>
+
+<p>The application is now deployed, and you should be able to access it through <a href="http://THENAMEOFYOURSITE.azurewebsites.net/">http://THENAMEOFYOURSITE.azurewebsites.net/</a></p>
+
+<p>You can see my version of the site here: <a href="http://my-first-webserver.azurewebsites.net/">http://my-first-webserver.azurewebsites.net/</a></p>
+
+<p>And find the code used in this tutorial on GitHub</p>
+
+<hr>
+
+<footer align="right" style="font-size: small">(heavily inspired by <a href="http://howtonode.org/deploy-blog-to-heroku">http://howtonode.org/deploy-blog-to-heroku</a>)</footer>
+        </section>
+        
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="../author/clbo/" style="background-image: url(http://www.gravatar.com/avatar/844ba99bc45032ab16c3993edb4d5e9b?s=250&amp;d=mm&amp;r=x)"><span class="hidden">Claus Bové's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="../author/clbo/">Claus Bové</a></h4>
+
+                    <p>Read <a href="../author/clbo/">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    
+                    
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/intent/tweet?text=%231%20Tutorial%3A%20My%20first%20Webserver&amp;url=http://localhost:2368/my-first-webserver/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/my-first-webserver/" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=http://localhost:2368/my-first-webserver/" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(../content/images/2015/12/Git-Logo-1788C.png)" href="../14/">
+        <section class="post">
+            <h2>Day 3 - Version Control with Git</h2>
+            <p>Time: 15/2 - 2016, 13:20 - 15:45 &amp;  Time: 18/2 - 2016, 13:20 -…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="../">Node.js</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=b2061fecbd"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=b2061fecbd"></script>
+    <!-- prettify javascript inserted by clbo -->
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js">    
+</script>
+
+</body>

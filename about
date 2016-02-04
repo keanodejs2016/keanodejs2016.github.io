@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Node.js - Backend Web development</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=b2061fecbd" /> 
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="about" />
+    <meta name="referrer" content="origin" />
+    <meta name="generator" content="Ghost 0.7" />
+    <link rel="alternate" type="application/rss+xml" title="Node.js" href="rss/index.html" />
+    <!-- inserted by lbo -->
+<style>
+    /*pre {background-color: #333; color: #fff}*/
+    .scroll-down {display : none !important}
+    </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body class="post-template page-template page nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="about#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+            <li class="nav-home" role="presentation"><a href="index.html">Home</a></li>
+            <li class="nav-about" role="presentation"><a href="about">About</a></li>
+            <li class="nav-exam-requirements" role="presentation"><a href="exam-requirements/index.html">Exam Requirements</a></li>
+            <li class="nav-mandatory-assignments" role="presentation"><a href="http://localhost:2368/mandatory-assignments/">Mandatory Assignments</a></li>
+            <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs">Github Repositories</a></li>
+            <li class="nav-curriculum" role="presentation"><a href="29">Curriculum</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="rss/index.html">Subscribe</a>
+</div>
+<span class="nav-cover"></span>
+
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="blog-logo" href="index.html"><img src="content/images/2016/01/nodejs-logo.png" alt="Node.js" /></a>
+            <a class="menu-button icon-menu" href="about#"><span class="word">Menu</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post page">
+
+        <header class="post-header">
+            <h1 class="post-title">Node.js - Backend Web development</h1>
+        </header>
+
+        <section class="post-content">
+            <h2 id="description">Description</h2>
+
+<p>In this elective we will focus on Backend Web development using the Node.js server and the MongoDB database, hence the programming language will be what has been called “The World's most misunderstood Programming Language” meaning Javascript.</p>
+
+<p>The overall technical focus in this elective is to to make the student familiar with development on the node.js server, and to be able to use javascript in a professional manner. There is a fast increasing amount of jobs where these skills is a requirement, and at the moment, there are few who understands these areas fully and can fulfill the job requirements.</p>
+
+<p>Furthermore most of the aspects touched in this course has a generic value, meaning that what you will learn in this course also can be used in any other kind of Backend Web Development, despite the technology or language.</p>
+
+<p>Depending on the size of a company there will often be a separation of responsibility when developing web applications. Graphical designers, front end developers and backend developers that work together but have their separate expertise and job functions. In this elective we will focus on the backend, or server side of the process. And if you think of layered architecture we will be working with all the things that are not part of the GUI or Presentation Layer (for presentation purpose we will be creating simple html <br />
+presentation pages though).</p>
+
+<p>Note that you can attend this elective as a “Stand-alone elective” like any other elective, however you can also choose to combine it with the elective “AngularJs – Front-end web development” and become a full MEAN-stack (MongoDB-Express-Angular-NodeJs) Frontend &amp; Backend developer. The two electives are designed to supplement each other.</p>
+
+<h3 id="learninggoals">Learning goals:</h3>
+
+<p>Formal learning goals:</p>
+
+<p>The goal is that the student gains knowledge of:  </p>
+
+<ul>
+<li>The Node.js Server</li>
+<li>Javascript and its Prototype-based, Event and Asynchronous programming style</li>
+<li>MongoDB and other noSql Databases (Big Data Related)</li>
+<li>HTTP REST API´s (Mobility &amp; service design related)</li>
+<li>JSON</li>
+<li>Basic Web Development concepts including html, css</li>
+<li>Git</li>
+<li>Console / Terminal</li>
+<li>Token based Authentication (Service Design related)</li>
+<li>Web sockets</li>
+<li>Deploying to a host &amp; working with a hosted Node.js solution. (Mobility related)</li>
+</ul>
+
+<h3 id="skills">Skills</h3>
+
+<p><strong>The student is able to:</strong> <br />
+Use the tools, languages and concepts listed above.</p>
+
+<p><strong>Competences</strong> <br />
+The student is able to, based on the requirements of a project, analyse, choose and develop using the suitable tools.</p>
+
+<p><strong>Learning goals made simple – a summary</strong> <br />
+The objective is to enable the students to develop applications based on the Node.js Server, MongoDB database and doing so by programming in Javascript.</p>
+
+<h3 id="lecturer">Lecturer</h3>
+
+<p>Claus Bové (<a href="mailto:clbo@kea.dk">clbo@kea.dk</a>)</p>
+
+<p>Teaching method(s) <br />
+The teaching method is a mix of lectures, exercises and project work. Each lecture will consist of a part with new theory and a part in which the teacher applies the new theory in a practical solution by doing ”live” coding/ live demonstration on a variety of sample projects. After that, the students will work with an exercise or exercises guided by the teacher.</p>
+
+<h3 id="assessment">Assessment</h3>
+
+<p>This elective will be finalized by a project, and a report. <br />
+The project will be done in cooperation with a group from the elective “AngularJs – <br />
+Front-end web development” and typically consisting of 3-4 students all in all from both <br />
+electives. The idea is that students from this elective will be doing the back end <br />
+development and students from the “AngularJs – Front-end web development” elective <br />
+will be doing the frontend development on the same project. <br />
+The group decides, based on the curriculum, what the project should be about. The <br />
+topics covered in the project should be approved by the teachers before the start of the <br />
+project period. The Report will be evaluated After the exam the student will be Grade <br />
+according to the 7-point grading scale.</p>
+
+<h3 id="literatureandtools">Literature and tools</h3>
+
+<p>Compulsory reading: <br />
+Online, written and video resources will provide the primary literature for this elective. <br />
+Some of the main resources will be: <br />
+<a href="https://nodejs.org/api/">https://nodejs.org/api/</a> <br />
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference</a> <br />
+<a href="http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf">http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf</a> <br />
+(much more will be listed prior to the start of this elective and in the curriculum)</p>
+
+<h4 id="optionalreading">Optional reading:</h4>
+
+<p>JavaScript: The Good Parts <br />
+by Douglas Crockford <br />
+JavaScript: The Definitive Guide (Definitive Guides) <br />
+by David Flanagan</p>
+
+<h4 id="toolsotherthanliterature">Tools other than literature:</h4>
+
+<p>Programming environment will be the Sublime Text 3 Editor (or a text editor of the <br />
+students own choice), Node.js, MongoDB and whatever else we will be working with is <br />
+controlled through the Console.</p>
+
+<h3 id="qualifications">Qualifications</h3>
+
+<p>Students must have a good understanding of procedural and object oriented <br />
+programming equivalent to 3 <br />
+rd semester CS or close. The student should also be familiar <br />
+with working through the console of the computer. HTML and CSS knowledge is an <br />
+advantage but not a requirement.</p>
+
+<h4 id="specialrequirements">Special Requirements</h4>
+
+<p>Please note that this course is a technical course, and despite the reputation of the Javascript language of being a “toy language” we will use it as a fully object oriented <br />
+language, which is far beyond the “Drag &amp; Drop” approach of JQuery or blinking buttons on a web page e.g. We will also make intensive use of the Console, so you should at least <br />
+be willing to learn to use this tool. In general very few Graphical User Interfaces will be <br />
+used in the teachings.</p>
+
+<h5 id="practicalinformation">Practical information</h5>
+
+<p>ECTS <br />
+10</p>
+
+<p>Language <br />
+English</p>
+
+<p>Provider <br />
+Computer science, KEA</p>
+
+<p>Period <br />
+14 weeks. </p>
+
+<p>Place <br />
+Lygten 37</p>
+
+<p>Number of students <br />
+35</p>
+
+<p>Selection process: <br />
+”First come, first served”</p>
+        </section>
+
+    </article>
+</main>
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="index.html">Node.js</a> &copy; 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
+        </footer>
+
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    
+
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=b2061fecbd"></script>
+    <script type="text/javascript" src="assets/js/index.js?v=b2061fecbd"></script>
+    <!-- prettify javascript inserted by clbo -->
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js">    
+</script>
+
+</body>
+</html>
