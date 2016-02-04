@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 04 Feb 2016 23:47:55 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Curriculum</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 04 Feb 2016 23:49:26 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Curriculum</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
 The following resources is the course curriculum. &lt;br&gt;
 Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
 
@@ -69,14 +69,7 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;ul&gt;&lt;li&gt;&lt;a href="http://localhost:2368/29/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://localhost:2368/exam-requirements/"&gt;Exam&lt;/a&gt; and &lt;a href="http://localhost:2368/7/"&gt;Mandatory Assignments&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Introduction to and installation of &lt;a href="https://nodejs.org/en/"&gt;Node.js&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;Make your first Webserver&lt;/a&gt; and a Hello World web page .&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Literature:&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;ul&gt;  
-    &lt;li&gt;&lt;a href="http://nodejs.clbo.dk/mandatory-assignment/"&gt;Mandatory Assignment&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="http://nodejs.clbo.dk/exam-requirements/"&gt;Exam Requirements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;Make your first Webserver&lt;/a&gt; and a Hello World web page.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Tools:&lt;/strong&gt;  &lt;/p&gt;
