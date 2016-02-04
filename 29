@@ -12,7 +12,7 @@
 
     <link rel="shortcut icon" href="favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=b2061fecbd" /> 
+    <link rel="stylesheet" type="text/css" href="assets/css/screen.css?v=0bad38b6f4" /> 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
     <link rel="canonical" href="29" />
@@ -24,7 +24,7 @@
     <meta property="og:description" content="Curriculum  The following resources is the course curriculum.  Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam. * Note that this is not a..." />
     <meta property="og:url" content="http://localhost:2368/29/" />
     <meta property="article:published_time" content="2016-02-04T14:39:34.291Z" />
-    <meta property="article:modified_time" content="2016-02-04T17:52:13.574Z" />
+    <meta property="article:modified_time" content="2016-02-04T20:10:13.911Z" />
     
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="Curriculum" />
@@ -47,7 +47,7 @@
     "headline": "Curriculum",
     "url": "http://localhost:2368/29/",
     "datePublished": "2016-02-04T14:39:34.291Z",
-    "dateModified": "2016-02-04T17:52:13.574Z",
+    "dateModified": "2016-02-04T20:10:13.911Z",
     "description": "Curriculum  The following resources is the course curriculum.  Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam. * Note that this is not a..."
 }
     </script>
@@ -73,7 +73,7 @@
             <li class="nav-home" role="presentation"><a href="index.html">Home</a></li>
             <li class="nav-about" role="presentation"><a href="about">About</a></li>
             <li class="nav-exam-requirements" role="presentation"><a href="exam-requirements/index.html">Exam Requirements</a></li>
-            <li class="nav-mandatory-assignments" role="presentation"><a href="http://localhost:2368/mandatory-assignments/">Mandatory Assignments</a></li>
+            <li class="nav-mandatory-assignments" role="presentation"><a href="7/index.html">Mandatory Assignments</a></li>
             <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs">Github Repositories</a></li>
             <li class="nav-curriculum" role="presentation"><a href="29">Curriculum</a></li>
     </ul>
@@ -199,7 +199,7 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 </main>
 
 <aside class="read-next">
-    <a class="read-next-story prev " style="background-image: url(content/images/2016/02/nodejs-green.png)" href="13/index.html">
+    <a class="read-next-story prev " style="background-image: url(content/images/2016/02/nodejs--1-.png)" href="13/index.html">
         <section class="post">
             <h2>Day 1 - Introduction</h2>
             <p>Time: 5/2-2016, 08:30 - 13:20 In this first class you will get introduced to what we&hellip;</p>
@@ -219,8 +219,8 @@ Your exam project should demonstrate the use of topics from this curriculum and 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     
 
-    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=b2061fecbd"></script>
-    <script type="text/javascript" src="assets/js/index.js?v=b2061fecbd"></script>
+    <script type="text/javascript" src="assets/js/jquery.fitvids.js?v=0bad38b6f4"></script>
+    <script type="text/javascript" src="assets/js/index.js?v=0bad38b6f4"></script>
     <!-- prettify javascript inserted by clbo -->
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js">    
 </script>

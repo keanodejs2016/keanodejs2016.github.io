@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=b2061fecbd"> 
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=0bad38b6f4"> 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic%7COpen+Sans:700,400">
 
     <link rel="canonical" href="index.html">
@@ -23,7 +23,7 @@
     <meta property="og:description" content="In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website. You will be guided through installing Node....">
     <meta property="og:url" content="http://localhost:2368/my-first-webserver/">
     <meta property="article:published_time" content="2015-12-07T01:47:41.051Z">
-    <meta property="article:modified_time" content="2016-02-04T14:39:24.627Z">
+    <meta property="article:modified_time" content="2016-02-04T23:36:36.060Z">
     <meta property="article:tag" content="Day 1">
     <meta property="article:tag" content="Node.js">
     <meta property="article:tag" content="Getting Started">
@@ -49,7 +49,7 @@
     "headline": "#1 Tutorial: My first Webserver",
     "url": "http://localhost:2368/my-first-webserver/",
     "datePublished": "2015-12-07T01:47:41.051Z",
-    "dateModified": "2016-02-04T14:39:24.627Z",
+    "dateModified": "2016-02-04T23:36:36.060Z",
     "keywords": "Day 1, Node.js, Getting Started",
     "description": "In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website. You will be guided through installing Node...."
 }
@@ -76,7 +76,7 @@
             <li class="nav-home" role="presentation"><a href="../">Home</a></li>
             <li class="nav-about" role="presentation"><a href="../about">About</a></li>
             <li class="nav-exam-requirements" role="presentation"><a href="../exam-requirements/">Exam Requirements</a></li>
-            <li class="nav-mandatory-assignments" role="presentation"><a href="http://localhost:2368/mandatory-assignments/">Mandatory Assignments</a></li>
+            <li class="nav-mandatory-assignments" role="presentation"><a href="../7/">Mandatory Assignments</a></li>
             <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs">Github Repositories</a></li>
             <li class="nav-curriculum" role="presentation"><a href="../29">Curriculum</a></li>
     </ul>
@@ -159,125 +159,7 @@ v0.12.7</pre>
 
 <p><img src="../content/images/2015/12/iphone-6-verizon-volte.png" alt=""></p>
 
-<p>Hopefully you see this, otherwise: “are your devices on the same network” ?</p>
-
-<h2 id="makeyoursitepublictotheworld">Make your site public to the world</h2>
-
-<p>Let´s put your site online and “make it public to the world”.</p>
-
-<h3 id="microsoftazure">Microsoft Azure</h3>
-
-<p>In order to go online you´ll need to create an account with a host (a server where you buy, or get for free, some space where you can put your sites).</p>
-
-<p>In connection with this elective you will get a 6 month free access pass at Microsoft Azure.</p>
-
-<p>So go ahead and create your account. You will need a Promotion Code which you will get from your teacher.</p>
-
-<p>Then you should browse to this url (www.microsoftazurepass.com) and follow the steps in this tutorial.</p>
-
-<p>So fare so good, you have created an account at Azure!</p>
-
-<p>Before you deploy your site, you will need to create a new file, and make a small change to the server.js file.</p>
-
-<h3 id="packagejson">Package.json</h3>
-
-<p>Now you need to create a file with descriptions about the the application you are building.</p>
-
-<p>In the folder where you have your server.js file, create another file and call it package.json</p>
-
-<p>Put in the following content  </p>
-
-<pre><code class="language-prettyprint json">{
-  "name": "tutorial-my-first-webserver",
-  "version": "0.0.1",
-  "description": "tutorial used in first class",
-  "main": "server.js",
-  "scripts": {
-       "test": "echo \"Error: no test specified\" &amp;&amp; exit 1",
-       "start": "node server.js"
-     },
-  "engines":{"node" : "0.12.x"},
-  "author": "clbo",
-  "license": "MIT"
-}
-</code></pre>
-
-<p>Then you need to change a little in your server.js file</p>
-
-<p>In the last line you should replace <code>listen(3000)</code> with <br>
-listen(process.env.PORT || 3000)</p>
-
-<pre><code class="language-prettyprint javascript">    var http = require('http'); 
-
-    http.createServer(function (req, res) { 
-      res.writeHead(200, {'Content-Type' : 'text/plain'}); 
-      res.write('Hello World\n'); 
-      res.end(); 
-    }).listen(process.env.PORT || 3000);
-</code></pre>
-
-<p>This is because that Azure dynamically assigns a port number to your application, and this you can get by using process.env.PORT.</p>
-
-<h2 id="createawebappatazure">Create a Web App at Azure</h2>
-
-<ul>
-<li>Log in to the Azure Portal.</li>
-<li>Click the + NEW icon on the top left of the portal</li>
-<li>Click Web + Mobile, then Web app.</li>
-</ul>
-
-<p>Enter a value for URL. (The unique identity of your site and name in the url) <br>
-Select an App Service plan or create a new one. If you create a new plan, select the pricing tier, location, and other options.</p>
-
-<p>Click Create. <br>
-Once the status changes to Running, the portal will automatically open the blade for your web app. You can also reach the blade by clicking Browse.</p>
-
-<p>Click Deployment. You may need to scroll to see this part of the blade.</p>
-
-<p>Click Choose Source, then Local Git Repository. Click OK.</p>
-
-<p>Click the deployment credentials part (outlined in red below). Create a user name and password. Click Save. If you have previously enabled publishing for an web app, you don’t need to do this step.</p>
-
-<p>To publish, you will push to a Git remote repository. Find the URL for repository, click All Settings, then click Properties. The URL is listed under “GIT URL”.</p>
-
-<p><a href="https://azure.microsoft.com/da-dk/documentation/articles/web-sites-nodejs-develop-deploy-mac/">https://azure.microsoft.com/da-dk/documentation/articles/web-sites-nodejs-develop-deploy-mac/</a></p>
-
-<p>Now you have a place to deploy to, now you just need to deploy your site using Git</p>
-
-<h3 id="deployyoursiteusinggit">Deploy your site using Git</h3>
-
-<p>In you console make sure you are in the folder with the sever.js and package.json file and the type</p>
-
-<pre><code>git init
-</code></pre>
-
-<p>This initializes git in your folder.</p>
-
-<pre><code>git add .
-</code></pre>
-
-<p>This adds server.js and package.json to git.</p>
-
-<pre><code>git commit -m "Initial commit"
-</code></pre>
-
-<p>Before you can push your files to Azure you will need (the first time) to create a link to the server by writing:</p>
-
-<pre><code>git remote add azure https://username@sitename.scm.azurewebsites.net:443/sitename.git
-</code></pre>
-
-<p>the url you can get from azure.</p>
-
-<p>Push the files to Azure.</p>
-
-<pre><code>git push azure master
-</code></pre>
-
-<p>The application is now deployed, and you should be able to access it through <a href="http://THENAMEOFYOURSITE.azurewebsites.net/">http://THENAMEOFYOURSITE.azurewebsites.net/</a></p>
-
-<p>You can see my version of the site here: <a href="http://my-first-webserver.azurewebsites.net/">http://my-first-webserver.azurewebsites.net/</a></p>
-
-<p>And find the code used in this tutorial on GitHub</p>
+<p>Hopefully you see this, otherwise: “are your devices on the same network” ?  </p>
 
 <hr>
 
@@ -325,7 +207,7 @@ Once the status changes to Running, the portal will automatically open the blade
     <a class="read-next-story " style="background-image: url(../content/images/2015/12/Git-Logo-1788C.png)" href="../14/">
         <section class="post">
             <h2>Day 3 - Version Control with Git</h2>
-            <p>Time: 15/2 - 2016, 13:20 - 15:45 &amp;  Time: 18/2 - 2016, 13:20 -…</p>
+            <p>Time: 15/2 - 2016, 14:15 - 16:30 &amp;  Time: 18/2 - 2016, 15:15 -…</p>
         </section>
     </a>
 </aside>
@@ -342,8 +224,8 @@ Once the status changes to Running, the portal will automatically open the blade
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     
 
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=b2061fecbd"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=b2061fecbd"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=0bad38b6f4"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=0bad38b6f4"></script>
     <!-- prettify javascript inserted by clbo -->
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js">    
 </script>

@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 04 Feb 2016 17:53:55 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Curriculum</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 04 Feb 2016 23:47:55 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Curriculum</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
 The following resources is the course curriculum. &lt;br&gt;
 Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
 
@@ -54,16 +54,20 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;li&gt;&lt;a href="http://expressjs.com/en/guide/database-integration.html#mongo"&gt;http://expressjs.com/en/guide/database-integration.html#mongo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title>Day 1 - Introduction</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
 
-&lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks, including a presentation of the two &lt;a href="http://localhost:2368/mandatory-assignments/"&gt;mandatory assignments&lt;/a&gt; in this elective. You will also get an introduction to the Node.js server,&lt;/p&gt;</description><link>http://localhost:2368/13/</link><guid isPermaLink="false">e5a35968-9b1f-423f-8783-1a63b3bf7dd4</guid><category>Day 1</category><category>Node.js</category><category>Getting Started</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:22:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/02/nodejs-green.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/02/nodejs-green.png" alt="Day 1 - Introduction"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
+&lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks.   &lt;/p&gt;
 
-&lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks, including a presentation of the two &lt;a href="http://localhost:2368/mandatory-assignments/"&gt;mandatory assignments&lt;/a&gt; in this elective. You will also get an introduction to the Node.js server, you will download and install the server, and you will create your first webserver and webpage. This webserver will run locally on your computer and it will be accessable on your local network for everybody. You will then deploy your server and site to an online host, (Azure), and end up by having made your first simple website accessable to everyone.&lt;/p&gt;
+&lt;p&gt;You will also get an introduction to the Node.js server, you will download and install the server, and you will create&lt;/p&gt;</description><link>http://localhost:2368/13/</link><guid isPermaLink="false">e5a35968-9b1f-423f-8783-1a63b3bf7dd4</guid><category>Day 1</category><category>Node.js</category><category>Getting Started</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:22:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/02/nodejs--1-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/02/nodejs--1-.png" alt="Day 1 - Introduction"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
+
+&lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks.   &lt;/p&gt;
+
+&lt;p&gt;You will also get an introduction to the Node.js server, you will download and install the server, and you will create your first webserver and webpage. This webserver will run locally on your computer and it will be accessable on your local network for everybody. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;An overview of what will be covered in the next 16 weeks.
-&lt;ul&gt;&lt;li&gt;&lt;a href="http://localhost:2368/teaching-schedule/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://localhost:2368/exam/"&gt;Exam&lt;/a&gt; and &lt;a href="http://localhost:2368/mandatory-assignments/"&gt;Mandatory Assignments&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;An overview of what will be covered in the next 14 weeks.
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://localhost:2368/29/"&gt;Curriculum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/exam-requirements/"&gt;Exam&lt;/a&gt; and &lt;a href="http://localhost:2368/7/"&gt;Mandatory Assignments&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Introduction to and installation of &lt;a href="https://nodejs.org/en/"&gt;Node.js&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;Make your first Webserver&lt;/a&gt; and a Hello World web page .&lt;/li&gt;
 &lt;/ul&gt;
@@ -73,15 +77,23 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;ul&gt;  
     &lt;li&gt;&lt;a href="http://nodejs.clbo.dk/mandatory-assignment/"&gt;Mandatory Assignment&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="http://nodejs.clbo.dk/exam-requirements/"&gt;Exam Requirements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;  
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools:&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://git-scm.com/downloads"&gt;Git&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sublimetext.com/3"&gt;Sublime Text 3&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/en/"&gt;Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Exercises:&lt;/strong&gt;  &lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line"&gt;http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://git-scm.com/downloads"&gt;Install git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/"&gt;The Command Line Crash Course&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line"&gt;Introduction to the Mac OS X Command Li&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;My first Webserver&lt;/a&gt; (used as "follow along" example in this class)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://azure.microsoft.com/da-dk/documentation/articles/web-sites-nodejs-develop-deploy-mac/"&gt;Node.js Deployment at Azure&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://nodejs.clbo.dk/1-exercise-hit/"&gt;HIT, HTML and CSS&lt;/a&gt; - (you don´t know enough yet to deploy this site, but it will come! Use it as a HTML, CSS exercise and skip the deployment part)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Code on Github: &lt;/strong&gt;  &lt;/p&gt;
@@ -89,49 +101,7 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;ul&gt;  
     &lt;li&gt;&lt;a href="https://github.com/keanodejs"&gt;keanodejs&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=01"&gt;Todays examples&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;  
-
-&lt;p&gt;&lt;strong&gt;Modules on Npm:&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;ul&gt;  
-    &lt;li&gt;&lt;a href="https://www.npmjs.com/~keanodejs"&gt;keanodejs&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title>Day 11 - Authentication</title><description>&lt;p&gt;&lt;strong&gt;suplement to the curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Passport&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://developer.github.com/v3/#authentication"&gt;https://developer.github.com/v3/#authentication&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/28/</link><guid isPermaLink="false">6bb3f6d0-e1c7-48a0-bef0-3b006ef43da0</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:36:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;suplement to the curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Passport&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://developer.github.com/v3/#authentication"&gt;https://developer.github.com/v3/#authentication&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 10 - Rest Api</title><description>&lt;p&gt;&lt;a href="http://www.restapitutorial.com/"&gt;http://www.restapitutorial.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf"&gt;https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;HTTPS &lt;br&gt;
-&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/crypto.html"&gt;crypto&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;CORS &lt;br&gt;
-&lt;a href="https://www.npmjs.com/package/method-override"&gt;https://www.npmjs.com/package/method-override&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;JWT Token&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Exercise&lt;/strong&gt; &lt;br&gt;
-Create an restfull application using this highlevel module &lt;br&gt;
-&lt;a href="https://www.npmjs.com/package/node-restful"&gt;node-restful&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/25/</link><guid isPermaLink="false">da7a0fcd-157d-48e8-aa62-045b897870d9</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:17:59 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/RESTful-API-design-1014x457.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/RESTful-API-design-1014x457.jpg" alt="Day 10 - Rest Api"&gt;&lt;p&gt;&lt;a href="http://www.restapitutorial.com/"&gt;http://www.restapitutorial.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf"&gt;https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;HTTPS &lt;br&gt;
-&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/crypto.html"&gt;crypto&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;CORS &lt;br&gt;
-&lt;a href="https://www.npmjs.com/package/method-override"&gt;https://www.npmjs.com/package/method-override&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;JWT Token&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Exercise&lt;/strong&gt; &lt;br&gt;
-Create an restfull application using this highlevel module &lt;br&gt;
-&lt;a href="https://www.npmjs.com/package/node-restful"&gt;node-restful&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 4 - Javascript</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 22/2-2016, 13:20 - 15:45 &amp;amp; &lt;br&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 4 - Javascript</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 22/2-2016, 13:20 - 15:45 &amp;amp; &lt;br&gt;
 &lt;strong&gt;Time:&lt;/strong&gt; 25/2-2016, 13:20 - 15:00&lt;/p&gt;
 
 &lt;p&gt;In this class we will be together with the students from the Angular.js elective.&lt;/p&gt;
@@ -191,7 +161,7 @@ Create an restfull application using this highlevel module &lt;br&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=04"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title>Day 12 - Deployment</title><description>&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/23/</link><guid isPermaLink="false">757fc1f0-0a42-44cf-80fe-b4454053f18e</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 08:45:24 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" alt="Day 12 - Deployment"&gt;&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11/3-2016, 08:30 - 13:20&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11/3-2016, 08:30 - 13:20&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
 Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on   &lt;/p&gt;
@@ -240,83 +210,11 @@ Serving static files in Express &lt;br&gt;
 
 &lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt; &lt;/p&gt;
 
-&lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=06"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 2 - Basic HTML &amp; CSS</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 12/02-2016, 08:30 - 13:20   &lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=06"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 2 - Basic HTML &amp; CSS</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 11/02-2016, 08:30 - 13:20   &lt;/p&gt;
 
-&lt;p&gt;Bispevej kælderen&lt;/p&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 12/02-2016, 08:30 - 13:20   &lt;/p&gt;
+&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 11/02-2016, 08:30 - 13:20   &lt;/p&gt;
 
-&lt;p&gt;Bispevej kælderen&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Websockets</title><description>&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites.&lt;/p&gt;
-
-&lt;p&gt;For inspiration we will also look at some more advanced ways of using sockets, which could be the&lt;/p&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites.&lt;/p&gt;
-
-&lt;p&gt;For inspiration we will also look at some more advanced ways of using sockets, which could be the basis of your exam projects. &lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Topics to be covered&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.npmjs.com/package/needle"&gt;Needle&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.tutorialindustry.com/nodejs-socketio-chat-application-tutorial"&gt;http://www.tutorialindustry.com/nodejs-socketio-chat-application-tutorial&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 9 - MongoDB</title><description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequsites&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
-Before the class you should have created an account on &lt;a href="http://mongolab.com"&gt;MongoLab.com&lt;/a&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Objectives&lt;/strong&gt;   &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MongoDB Native Driver   &lt;/li&gt;
-&lt;li&gt;Mongoose   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/database-integration.html#mongo"&gt;http://expressjs.com/en/guide/database-integration.html#mongo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;process.env.XXX&lt;/strong&gt; &lt;br&gt;
-- chapter from book - save url and show other uses.&lt;/p&gt;
-
-&lt;!--  
-pro  
-**Exercises:**  
-
-**CLBO TODO:**  
-
-* Guides on installing mongodb
-* Save to google spreedsheet
---&gt;</description><link>http://localhost:2368/20/</link><guid isPermaLink="false">c45d8f06-1ad2-4646-8e01-1a34c3f96007</guid><category>Day 9</category><category>MongoDB</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:37:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/mongodb--1-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/mongodb--1-.png" alt="Day 9 - MongoDB"&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequsites&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
-Before the class you should have created an account on &lt;a href="http://mongolab.com"&gt;MongoLab.com&lt;/a&gt;  &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Objectives&lt;/strong&gt;   &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;MongoDB Native Driver   &lt;/li&gt;
-&lt;li&gt;Mongoose   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/database-integration.html#mongo"&gt;http://expressjs.com/en/guide/database-integration.html#mongo&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;process.env.XXX&lt;/strong&gt; &lt;br&gt;
-- chapter from book - save url and show other uses.&lt;/p&gt;
-
-&lt;!--  
-pro  
-**Exercises:**  
-
-**CLBO TODO:**  
-
-* Guides on installing mongodb
-* Save to google spreedsheet
---&gt;</content:encoded></item><item><title>How To Create A Lynda.com Account</title><description>&lt;p&gt;Be at KEA, Lygten 37. &lt;br&gt;
+&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</content:encoded></item><item><title>How To Create A Lynda.com Account</title><description>&lt;p&gt;Be at KEA, Lygten 37. &lt;br&gt;
 Sign in to the network (like you normally do) &lt;br&gt;
 Go to: &lt;a href="http://iplogin.lynda.com/"&gt;http://iplogin.lynda.com/&lt;/a&gt; &lt;br&gt;
 Sign up using your KEA-mail and password. &lt;br&gt;
@@ -388,15 +286,15 @@ Before this class number 5 you should have completed &lt;a href="http://www.lynd
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=05"&gt;Materials from today&lt;/a&gt;   &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title>Day 3 - Version Control with Git</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 13:20 - 15:45 &amp;amp; &lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 18/2 - 2016, 13:20 - 15:00&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 3 - Version Control with Git</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 14:15 - 16:30 &amp;amp; &lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 18/2 - 2016, 15:15 - 15:45&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Notice that the time for this class is different than the normal friday classes&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Place: L37,  1-A-08 &amp;amp; 1-A-09&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Christian Kirschberg will teach "Working with version control git" for&lt;/p&gt;</description><link>http://localhost:2368/14/</link><guid isPermaLink="false">d271a74e-99d5-495b-b5eb-0726fa0f3a73</guid><category>Git</category><dc:creator>Claus Bové</dc:creator><pubDate>Tue, 08 Dec 2015 17:00:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" alt="Day 3 - Version Control with Git"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 13:20 - 15:45 &amp;amp; &lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 18/2 - 2016, 13:20 - 15:00&lt;/p&gt;
+&lt;p&gt;Christian Kirschberg will teach "Working with version control git" for&lt;/p&gt;</description><link>http://localhost:2368/14/</link><guid isPermaLink="false">d271a74e-99d5-495b-b5eb-0726fa0f3a73</guid><category>Git</category><dc:creator>Claus Bové</dc:creator><pubDate>Tue, 08 Dec 2015 17:00:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" alt="Day 3 - Version Control with Git"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 14:15 - 16:30 &amp;amp; &lt;br&gt;
+&lt;strong&gt;Time:&lt;/strong&gt; 18/2 - 2016, 15:15 - 15:45&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Notice that the time for this class is different than the normal friday classes&lt;/strong&gt;&lt;/p&gt;
 
@@ -405,7 +303,7 @@ Before this class number 5 you should have completed &lt;a href="http://www.lynd
 &lt;p&gt;Christian Kirschberg will teach "Working with version control git" for the NodeJs and AngularJs courses. &lt;br&gt;
 Claus Bové will assist.&lt;/p&gt;
 
-&lt;p&gt;Link to materials: &lt;a href="http://angularchrk.azurewebsites.net/2-working-with-version-control-git/"&gt;http://angularchrk.azurewebsites.net/2-working-with-version-control-git/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>#1 Tutorial: My first Webserver</title><description>&lt;p&gt;In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website.&lt;/p&gt;
+&lt;p&gt;Link to materials: &lt;a href="http://angularchrk.azurewebsites.net/2-working-with-version-control-git/"&gt;http://angularspring2016.azurewebsites.net/version-control-git/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>#1 Tutorial: My first Webserver</title><description>&lt;p&gt;In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website.&lt;/p&gt;
 
 &lt;p&gt;You will be guided through installing Node.js on your computer, creating a webserver on your Node.&lt;/p&gt;</description><link>http://localhost:2368/my-first-webserver/</link><guid isPermaLink="false">526718b1-0ae0-45db-a2be-250693b455d4</guid><category>Day 1</category><category>Node.js</category><category>Getting Started</category><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 07 Dec 2015 01:47:41 GMT</pubDate><content:encoded>&lt;p&gt;In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website.&lt;/p&gt;
 
@@ -458,125 +356,7 @@ v0.12.7&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/12/iphone-6-verizon-volte.png" alt=""&gt;&lt;/p&gt;
 
-&lt;p&gt;Hopefully you see this, otherwise: “are your devices on the same network” ?&lt;/p&gt;
-
-&lt;h2 id="makeyoursitepublictotheworld"&gt;Make your site public to the world&lt;/h2&gt;
-
-&lt;p&gt;Let´s put your site online and “make it public to the world”.&lt;/p&gt;
-
-&lt;h3 id="microsoftazure"&gt;Microsoft Azure&lt;/h3&gt;
-
-&lt;p&gt;In order to go online you´ll need to create an account with a host (a server where you buy, or get for free, some space where you can put your sites).&lt;/p&gt;
-
-&lt;p&gt;In connection with this elective you will get a 6 month free access pass at Microsoft Azure.&lt;/p&gt;
-
-&lt;p&gt;So go ahead and create your account. You will need a Promotion Code which you will get from your teacher.&lt;/p&gt;
-
-&lt;p&gt;Then you should browse to this url (www.microsoftazurepass.com) and follow the steps in this tutorial.&lt;/p&gt;
-
-&lt;p&gt;So fare so good, you have created an account at Azure!&lt;/p&gt;
-
-&lt;p&gt;Before you deploy your site, you will need to create a new file, and make a small change to the server.js file.&lt;/p&gt;
-
-&lt;h3 id="packagejson"&gt;Package.json&lt;/h3&gt;
-
-&lt;p&gt;Now you need to create a file with descriptions about the the application you are building.&lt;/p&gt;
-
-&lt;p&gt;In the folder where you have your server.js file, create another file and call it package.json&lt;/p&gt;
-
-&lt;p&gt;Put in the following content  &lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-prettyprint json"&gt;{
-  "name": "tutorial-my-first-webserver",
-  "version": "0.0.1",
-  "description": "tutorial used in first class",
-  "main": "server.js",
-  "scripts": {
-       "test": "echo \"Error: no test specified\" &amp;amp;&amp;amp; exit 1",
-       "start": "node server.js"
-     },
-  "engines":{"node" : "0.12.x"},
-  "author": "clbo",
-  "license": "MIT"
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Then you need to change a little in your server.js file&lt;/p&gt;
-
-&lt;p&gt;In the last line you should replace &lt;code&gt;listen(3000)&lt;/code&gt; with &lt;br&gt;
-listen(process.env.PORT || 3000)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-prettyprint javascript"&gt;    var http = require('http'); 
-
-    http.createServer(function (req, res) { 
-      res.writeHead(200, {'Content-Type' : 'text/plain'}); 
-      res.write('Hello World\n'); 
-      res.end(); 
-    }).listen(process.env.PORT || 3000);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This is because that Azure dynamically assigns a port number to your application, and this you can get by using process.env.PORT.&lt;/p&gt;
-
-&lt;h2 id="createawebappatazure"&gt;Create a Web App at Azure&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Log in to the Azure Portal.&lt;/li&gt;
-&lt;li&gt;Click the + NEW icon on the top left of the portal&lt;/li&gt;
-&lt;li&gt;Click Web + Mobile, then Web app.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Enter a value for URL. (The unique identity of your site and name in the url) &lt;br&gt;
-Select an App Service plan or create a new one. If you create a new plan, select the pricing tier, location, and other options.&lt;/p&gt;
-
-&lt;p&gt;Click Create. &lt;br&gt;
-Once the status changes to Running, the portal will automatically open the blade for your web app. You can also reach the blade by clicking Browse.&lt;/p&gt;
-
-&lt;p&gt;Click Deployment. You may need to scroll to see this part of the blade.&lt;/p&gt;
-
-&lt;p&gt;Click Choose Source, then Local Git Repository. Click OK.&lt;/p&gt;
-
-&lt;p&gt;Click the deployment credentials part (outlined in red below). Create a user name and password. Click Save. If you have previously enabled publishing for an web app, you don’t need to do this step.&lt;/p&gt;
-
-&lt;p&gt;To publish, you will push to a Git remote repository. Find the URL for repository, click All Settings, then click Properties. The URL is listed under “GIT URL”.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://azure.microsoft.com/da-dk/documentation/articles/web-sites-nodejs-develop-deploy-mac/"&gt;https://azure.microsoft.com/da-dk/documentation/articles/web-sites-nodejs-develop-deploy-mac/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Now you have a place to deploy to, now you just need to deploy your site using Git&lt;/p&gt;
-
-&lt;h3 id="deployyoursiteusinggit"&gt;Deploy your site using Git&lt;/h3&gt;
-
-&lt;p&gt;In you console make sure you are in the folder with the sever.js and package.json file and the type&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git init
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This initializes git in your folder.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git add .
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This adds server.js and package.json to git.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git commit -m "Initial commit"
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Before you can push your files to Azure you will need (the first time) to create a link to the server by writing:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git remote add azure https://username@sitename.scm.azurewebsites.net:443/sitename.git
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;the url you can get from azure.&lt;/p&gt;
-
-&lt;p&gt;Push the files to Azure.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;git push azure master
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The application is now deployed, and you should be able to access it through &lt;a href="http://THENAMEOFYOURSITE.azurewebsites.net/"&gt;http://THENAMEOFYOURSITE.azurewebsites.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can see my version of the site here: &lt;a href="http://my-first-webserver.azurewebsites.net/"&gt;http://my-first-webserver.azurewebsites.net/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And find the code used in this tutorial on GitHub&lt;/p&gt;
+&lt;p&gt;Hopefully you see this, otherwise: “are your devices on the same network” ?  &lt;/p&gt;
 
 &lt;hr&gt;
 
