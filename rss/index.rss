@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Fri, 05 Feb 2016 08:28:24 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Curriculum</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Fri, 05 Feb 2016 08:31:40 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Curriculum</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
 The following resources is the course curriculum. &lt;br&gt;
 Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
 
@@ -94,7 +94,43 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;ul&gt;  
     &lt;li&gt;&lt;a href="https://github.com/keanodejs"&gt;keanodejs&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=01"&gt;Todays examples&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title>Day 4 - Javascript</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 22/2-2016, 13:20 - 15:45 &amp;amp; &lt;br&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 11 - Authentication</title><description>&lt;p&gt;&lt;strong&gt;suplement to the curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Passport&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://developer.github.com/v3/#authentication"&gt;https://developer.github.com/v3/#authentication&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/28/</link><guid isPermaLink="false">6bb3f6d0-e1c7-48a0-bef0-3b006ef43da0</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:36:05 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;suplement to the curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Passport&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://developer.github.com/v3/#authentication"&gt;https://developer.github.com/v3/#authentication&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 10 - Rest Api</title><description>&lt;p&gt;&lt;a href="http://www.restapitutorial.com/"&gt;http://www.restapitutorial.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf"&gt;https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HTTPS &lt;br&gt;
+&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/crypto.html"&gt;crypto&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CORS &lt;br&gt;
+&lt;a href="https://www.npmjs.com/package/method-override"&gt;https://www.npmjs.com/package/method-override&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;JWT Token&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercise&lt;/strong&gt; &lt;br&gt;
+Create an restfull application using this highlevel module &lt;br&gt;
+&lt;a href="https://www.npmjs.com/package/node-restful"&gt;node-restful&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/25/</link><guid isPermaLink="false">da7a0fcd-157d-48e8-aa62-045b897870d9</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 19:17:59 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/RESTful-API-design-1014x457.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/RESTful-API-design-1014x457.jpg" alt="Day 10 - Rest Api"&gt;&lt;p&gt;&lt;a href="http://www.restapitutorial.com/"&gt;http://www.restapitutorial.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf"&gt;https://github.com/tfredrich/RestApiTutorial.com/raw/master/media/RESTful%20Best%20Practices-v1_2.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HTTPS &lt;br&gt;
+&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/crypto.html"&gt;crypto&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;CORS &lt;br&gt;
+&lt;a href="https://www.npmjs.com/package/method-override"&gt;https://www.npmjs.com/package/method-override&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;JWT Token&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercise&lt;/strong&gt; &lt;br&gt;
+Create an restfull application using this highlevel module &lt;br&gt;
+&lt;a href="https://www.npmjs.com/package/node-restful"&gt;node-restful&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 4 - Javascript</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 22/2-2016, 13:20 - 15:45 &amp;amp; &lt;br&gt;
 &lt;strong&gt;Time:&lt;/strong&gt; 25/2-2016, 13:20 - 15:00&lt;/p&gt;
 
 &lt;p&gt;In this class we will be together with the students from the Angular.js elective.&lt;/p&gt;
@@ -154,7 +190,7 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=04"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11/3-2016, 08:30 - 13:20&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 12 - Deployment</title><description>&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/23/</link><guid isPermaLink="false">757fc1f0-0a42-44cf-80fe-b4454053f18e</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 08:45:24 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" alt="Day 12 - Deployment"&gt;&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11/3-2016, 08:30 - 13:20&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
 Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on   &lt;/p&gt;
@@ -207,7 +243,79 @@ Serving static files in Express &lt;br&gt;
 
 &lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 11/02-2016, 08:30 - 13:20   &lt;/p&gt;
 
-&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</content:encoded></item><item><title>How To Create A Lynda.com Account</title><description>&lt;p&gt;Be at KEA, Lygten 37. &lt;br&gt;
+&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Websockets</title><description>&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites.&lt;/p&gt;
+
+&lt;p&gt;For inspiration we will also look at some more advanced ways of using sockets, which could be the&lt;/p&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites.&lt;/p&gt;
+
+&lt;p&gt;For inspiration we will also look at some more advanced ways of using sockets, which could be the basis of your exam projects. &lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Topics to be covered&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.npmjs.com/package/needle"&gt;Needle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.tutorialindustry.com/nodejs-socketio-chat-application-tutorial"&gt;http://www.tutorialindustry.com/nodejs-socketio-chat-application-tutorial&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 9 - MongoDB</title><description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequsites&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+Before the class you should have created an account on &lt;a href="http://mongolab.com"&gt;MongoLab.com&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Objectives&lt;/strong&gt;   &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MongoDB Native Driver   &lt;/li&gt;
+&lt;li&gt;Mongoose   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/database-integration.html#mongo"&gt;http://expressjs.com/en/guide/database-integration.html#mongo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;process.env.XXX&lt;/strong&gt; &lt;br&gt;
+- chapter from book - save url and show other uses.&lt;/p&gt;
+
+&lt;!--  
+pro  
+**Exercises:**  
+
+**CLBO TODO:**  
+
+* Guides on installing mongodb
+* Save to google spreedsheet
+--&gt;</description><link>http://localhost:2368/20/</link><guid isPermaLink="false">c45d8f06-1ad2-4646-8e01-1a34c3f96007</guid><category>Day 9</category><category>MongoDB</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:37:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/mongodb--1-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/mongodb--1-.png" alt="Day 9 - MongoDB"&gt;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequsites&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+Before the class you should have created an account on &lt;a href="http://mongolab.com"&gt;MongoLab.com&lt;/a&gt;  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Objectives&lt;/strong&gt;   &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;MongoDB Native Driver   &lt;/li&gt;
+&lt;li&gt;Mongoose   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/database-integration.html#mongo"&gt;http://expressjs.com/en/guide/database-integration.html#mongo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;process.env.XXX&lt;/strong&gt; &lt;br&gt;
+- chapter from book - save url and show other uses.&lt;/p&gt;
+
+&lt;!--  
+pro  
+**Exercises:**  
+
+**CLBO TODO:**  
+
+* Guides on installing mongodb
+* Save to google spreedsheet
+--&gt;</content:encoded></item><item><title>How To Create A Lynda.com Account</title><description>&lt;p&gt;Be at KEA, Lygten 37. &lt;br&gt;
 Sign in to the network (like you normally do) &lt;br&gt;
 Go to: &lt;a href="http://iplogin.lynda.com/"&gt;http://iplogin.lynda.com/&lt;/a&gt; &lt;br&gt;
 Sign up using your KEA-mail and password. &lt;br&gt;
