@@ -198,6 +198,12 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 </main>
 
 <aside class="read-next">
+    <a class="read-next-story no-cover" href="teaching-schedule/index.html">
+        <section class="post">
+            <h2>Node.js Backend Web Development</h2>
+            <p>Teaching Schedule       Week   Date   Time   Subject         5   5/2 - 2016   8:30 - 13:20   Day 1 Introduction&hellip;</p>
+        </section>
+    </a>
     <a class="read-next-story prev " style="background-image: url(content/images/2016/02/nodejs--1-.png)" href="13/index.html">
         <section class="post">
             <h2>Day 1 - Introduction</h2>
