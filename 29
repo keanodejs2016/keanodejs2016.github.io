@@ -71,7 +71,6 @@
     </a>
     <ul>
             <li class="nav-home" role="presentation"><a href="index.html">Home</a></li>
-            <li class="nav-about" role="presentation"><a href="http://localhost:2368/about">About</a></li>
             <li class="nav-exam-requirements" role="presentation"><a href="exam-requirements/index.html">Exam Requirements</a></li>
             <li class="nav-mandatory-assignments" role="presentation"><a href="7/index.html">Mandatory Assignments</a></li>
             <li class="nav-github-repositories" role="presentation"><a href="https://github.com/keanodejs">Github Repositories</a></li>
