@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 06 Feb 2016 00:12:04 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 06 Feb 2016 00:12:50 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
 
 &lt;table id="tbl"&gt;  
 &lt;tr&gt;  
@@ -562,12 +562,16 @@ Before this class number 5 you should have completed &lt;a href="http://www.lynd
 
 &lt;p&gt;&lt;strong&gt;Place: L37,  1-A-08 &amp;amp; 1-A-09&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Christian Kirschberg will teach "Working with version control git" for&lt;/p&gt;</description><link>http://localhost:2368/14/</link><guid isPermaLink="false">d271a74e-99d5-495b-b5eb-0726fa0f3a73</guid><category>Git</category><dc:creator>Claus Bové</dc:creator><pubDate>Tue, 08 Dec 2015 17:00:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" alt="Day 3 - Version Control with Git"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 14:15 - 16:30 &amp;amp; &lt;br&gt;
+&lt;p&gt;&lt;a href="https://driven.azurewebsites.net/git-typical-use-cases/"&gt;Link to materials used in the teachings&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Christian Kirschberg will&lt;/p&gt;</description><link>http://localhost:2368/14/</link><guid isPermaLink="false">d271a74e-99d5-495b-b5eb-0726fa0f3a73</guid><category>Git</category><dc:creator>Claus Bové</dc:creator><pubDate>Tue, 08 Dec 2015 17:00:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" alt="Day 3 - Version Control with Git"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 14:15 - 16:30 &amp;amp; &lt;br&gt;
 &lt;strong&gt;Time:&lt;/strong&gt; 18/2 - 2016, 15:15 - 15:45&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Notice that the time for this class is different than the normal friday classes&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Place: L37,  1-A-08 &amp;amp; 1-A-09&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://driven.azurewebsites.net/git-typical-use-cases/"&gt;Link to materials used in the teachings&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Christian Kirschberg will teach "Working with version control git" for the NodeJs and AngularJs courses. &lt;br&gt;
 Claus Bové will assist.&lt;/p&gt;
