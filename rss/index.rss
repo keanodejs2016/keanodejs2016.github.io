@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 06 Feb 2016 00:40:23 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 06 Feb 2016 01:03:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
 
 &lt;table id="tbl"&gt;  
 &lt;tr&gt;  
@@ -380,30 +380,18 @@ Before the start of this day 6 class, you should have completed the online Lynda
 
 &lt;p&gt;ExpressJS is maybe the most used Module on the Node.js platform, and today we will work with that.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Literature:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Expressjs-tutorials/Building-Website-Nodejs-Expressjs/163094-2.html"&gt;Building a Website with Node.js and Express.js&lt;/a&gt; (2h 46m)   &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/4x/api.html"&gt;Express.js 4.x API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/writing-middleware.html"&gt;Writing middleware for use in Express apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://expressjs.com/en/guide/using-middleware.html"&gt;Using middleware&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;NPM &lt;br&gt;
-Getting Started 01- 12 &lt;br&gt;
-package.json &lt;br&gt;
-Unpublish &lt;br&gt;
-Express &lt;br&gt;
-Express 4.x Api Documentation &lt;br&gt;
-Express Guide Routing &lt;br&gt;
-Express Guide Middleware &lt;br&gt;
-Express Guide Error Handling &lt;br&gt;
-Tutorials:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Getting started:&lt;/p&gt;
-
-&lt;p&gt;Installing &lt;br&gt;
-Hello world example &lt;br&gt;
-Basic routing tutorial &lt;br&gt;
-Serving static files in Express &lt;br&gt;
-&lt;strong&gt;Exercises:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Publish a Module to NPM&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt; &lt;/p&gt;
 
@@ -411,25 +399,33 @@ Serving static files in Express &lt;br&gt;
 
 &lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 11/02-2016, 08:30 - 13:20   &lt;/p&gt;
 
-&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Websockets</title><description>&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites.&lt;/p&gt;
+&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Websockets</title><description>&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
 
-&lt;p&gt;For inspiration we will also look at some more advanced ways of using sockets, which could be the&lt;/p&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites.&lt;/p&gt;
-
-&lt;p&gt;For inspiration we will also look at some more advanced ways of using sockets, which could be the basis of your exam projects. &lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Topics to be covered&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.npmjs.com/package/needle"&gt;Needle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.io Docs&lt;/a&gt; &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Supplements to&lt;/strong&gt;&lt;/p&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://www.tutorialindustry.com/nodejs-socketio-chat-application-tutorial"&gt;http://www.tutorialindustry.com/nodejs-socketio-chat-application-tutorial&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 9 - MongoDB</title><description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequsites&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
+&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.io Docs&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 9 - MongoDB</title><description>&lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequsites&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
 Before the class you should have created an account on &lt;a href="http://mongolab.com"&gt;MongoLab.com&lt;/a&gt;  &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Objectives&lt;/strong&gt;   &lt;/p&gt;
@@ -540,6 +536,12 @@ Before this class number 5 you should have completed &lt;a href="http://www.lynd
 &lt;li&gt;&lt;a href="http://thenodeway.io/posts/understanding-error-first-callbacks/"&gt;Understanding Error-First Callbacks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D"&gt;Philip Roberts: What the heck is the event loop anyway?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://www.tutorialspoint.com/nodejs/index.htm"&gt;http://www.tutorialspoint.com/nodejs/index.htm&lt;/a&gt;   &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://latentflip.com/loupe/"&gt;Loupe&lt;/a&gt;  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
