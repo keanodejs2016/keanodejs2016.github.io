@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 06 Feb 2016 01:08:31 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 06 Feb 2016 22:51:38 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
 
 &lt;table id="tbl"&gt;  
 &lt;tr&gt;  
@@ -278,45 +278,9 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 
 &lt;p&gt;Place: L37,  1-A-08 &amp;amp; 1-A-09&lt;/p&gt;
 
-&lt;p&gt;Today we will cover the basics of the Javascript language, and we will focus on the EcmaScript 5 standart.&lt;/p&gt;
-
-&lt;p&gt;The three semesters of Java Programming you have had so far will make it relative easy for you to learn a new language, including Javascript. And like you would if you where trying to learn C++ og C#, you will spend a little time to get to know the similarities and differences between what you already know and Javascript.&lt;/p&gt;
-
-&lt;p&gt;Javascript is often seen as almost similar to Java, and that makes most programmers just start using it before learning it. But as it turns out, it is quite different in many ways and therefore it is good to spend a little time to understand it before you just jump into it.&lt;/p&gt;
-
-&lt;p&gt;And this is what we will do today.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Objectives:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Literature:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"&gt;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://eclipsesource.com/blogs/2013/07/05/private-members-in-javascript/"&gt;http://eclipsesource.com/blogs/2013/07/05/private-members-in-javascript/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Tools:&lt;/strong&gt;   &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Loupe   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Videos:&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=RO1Wnu-xKoY"&gt;Crockford on JavaScript – Chapter 2: And Then There Was JavaScript&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Exercises:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;basic&lt;em&gt;javascript&lt;/em&gt;examples&lt;em&gt;and&lt;/em&gt;exercises&lt;/li&gt;
-&lt;li&gt;Function Exercises&lt;/li&gt;
-&lt;li&gt;Object Exercises&lt;/li&gt;
-&lt;li&gt;Inheritance Exercises&lt;/li&gt;
-&lt;li&gt;Javascript øvelse
-&lt;ul&gt;&lt;li&gt;lav javascript der indsætter dato i en tabel ala teaching schedule og som selv opdaterer hvis en tr bliver flyttet eller slettet.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;   &lt;/p&gt;
 
@@ -373,9 +337,7 @@ Before the start of this day 6 class, you should have completed the online Lynda
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.io Docs&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Supplements to&lt;/strong&gt;&lt;/p&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
+&lt;li&gt;&lt;a href="http://socket.io/get-started/chat/"&gt;Get Started:&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
 
@@ -385,6 +347,7 @@ Before the start of this day 6 class, you should have completed the online Lynda
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.io Docs&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;&lt;a href="http://socket.io/get-started/chat/"&gt;Get Started: Chat application&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
