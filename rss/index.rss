@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 06 Feb 2016 22:53:55 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 07 Feb 2016 20:33:59 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
 
 &lt;table id="tbl"&gt;  
 &lt;tr&gt;  
@@ -174,6 +174,20 @@ The following resources is the course curriculum. &lt;br&gt;
 Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
 
 &lt;p&gt;* &lt;small&gt;&lt;em&gt;Note that this is not a complete list yet, it will grow as we advance through the elective.&lt;/em&gt; &lt;/small&gt;&lt;/p&gt;
+
+&lt;p&gt;Command Line Client   &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/"&gt;The Command Line Crash Course&lt;/a&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex2.html"&gt;Paths, Folders, Directories (pwd)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex4.html"&gt;Make A Directory (mkdir)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex5.html"&gt;Change Directory (cd)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex6.html"&gt;List Directory (ls)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex7.html"&gt;Remove Directory (rmdir)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex9.html"&gt;Making Empty Files (Touch, New-Item)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex14.html"&gt;Removing A File (rm)&lt;/a&gt;&lt;/li&gt;
+*&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Node.js&lt;/p&gt;
 
