@@ -1,4 +1,113 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sun, 07 Feb 2016 20:33:59 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 11 Feb 2016 07:40:58 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>09.1 Exercise: MongoDB Getting Started</title><description>&lt;p&gt;The information you will need for this exercise can be found at this &lt;a href="https://docs.mongodb.org/manual/core/crud-introduction/"&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a database called store. In this there should be a collection called users, and a collection called products.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Insert&lt;/strong&gt; &lt;br&gt;
+Insert 3 users in the user collection. The 2 below, and one your create yourself (you&lt;/p&gt;</description><link>http://localhost:2368/32/</link><guid isPermaLink="false">f790279c-c39e-4f02-811f-896ab8ef925d</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:28:12 GMT</pubDate><content:encoded>&lt;p&gt;The information you will need for this exercise can be found at this &lt;a href="https://docs.mongodb.org/manual/core/crud-introduction/"&gt;website&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Create a database called store. In this there should be a collection called users, and a collection called products.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Insert&lt;/strong&gt; &lt;br&gt;
+Insert 3 users in the user collection. The 2 below, and one your create yourself (you own name). You can insert these one at a time or all 3 at the same time by wrapping them in an array [ ]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "name" : "Claus",
+        "lastName" : "Bové",
+        "address" : "Svanemøllevej 56",
+        "phone" : "004512345678",
+        "email" : "clbo@kea.dk"
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "name" : "Anna",
+        "lastName" : "Messner",
+        "address" : "Lygten 16",
+        "phone" : "004512345678",
+        "email" : "anna@stud.kea.dk"
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;br&gt;
+Insert 3 products in the products collection. The 2 below, and one your create yourself. You can insert these one at a time or all 3 at the same time by wrapping them in an array [ ]&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "make" : "Burton Menswear London",
+        "name" : "Print T-shirt",
+        "color" : "white",
+        "price" : 16,
+        "size" : ["small", "medium", "large", "x-large"],
+        "details" : {
+                "length" : "standard",
+                "fit" : "normal",
+                "fabric" : "jersey",
+                "Neckline" : "Crew neck",
+                "Total length" : "28.0\"  (Size M)"
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class="language-javascript"&gt;{
+        "make" : "ONLY",
+        "name" : "ONLNEW - Slim fit jeans",
+        "color" : "black olive",
+        "price" : 30,
+        "size" : ["x-small", "small", "medium", "large", "x-large"],
+        "details" : {
+                "length" : "long",
+                "fit" : "normal",
+                "Pockets" : "Back pocket",
+                "outer leg length" : "40.0\" (Size S)",
+                "inner leg length” :  "31.5\" (Size S)"
+        }
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;`   &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Querying&lt;/strong&gt; &lt;br&gt;
+Select all users, and after that select all products. &lt;br&gt;
+Then select the user with your own name, and the a single product of your own choice, by querying on the “_id”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update&lt;/strong&gt; &lt;br&gt;
+The user with the name “Claus” should have another address. &lt;br&gt;
+Change the address to “Lygten 16”&lt;/p&gt;
+
+&lt;p&gt;The product ONLY, needs to have the name field changed to “ONLY NEW - Slim fit jeans”&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remove&lt;/strong&gt; &lt;br&gt;
+Remove the user with the name Anna &lt;br&gt;
+Remove the product with the make “Burton Menswear London”&lt;/p&gt;</content:encoded></item><item><title>09.2 Exercise: MongoDB 2.0.0 Driver</title><description>&lt;p&gt;In the following exercises you should create 4 different applications (4 different javascript files), each containing 1 of the 4 CRUD operations.&lt;/p&gt;
+
+&lt;p&gt;You can read about the MongoDB 2.0.0 driver CRUD operations &lt;a href="https://github.com/mongodb/node-mongodb-native#quickstart"&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Find()&lt;/strong&gt; &lt;br&gt;
+Create an app that reads all persons from your “store” database and prints them&lt;/p&gt;</description><link>http://localhost:2368/31/</link><guid isPermaLink="false">5c233046-7399-4c06-9db4-8eec74869c05</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:21:48 GMT</pubDate><content:encoded>&lt;p&gt;In the following exercises you should create 4 different applications (4 different javascript files), each containing 1 of the 4 CRUD operations.&lt;/p&gt;
+
+&lt;p&gt;You can read about the MongoDB 2.0.0 driver CRUD operations &lt;a href="https://github.com/mongodb/node-mongodb-native#quickstart"&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Find()&lt;/strong&gt; &lt;br&gt;
+Create an app that reads all persons from your “store” database and prints them out in the console.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Insert()&lt;/strong&gt; &lt;br&gt;
+Insert a person into the database. The person's id should be an automatic generated id.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Update()&lt;/strong&gt; &lt;br&gt;
+Update the inner object “schoolID” so that the name of the school becomes XXX. You decide yourself which person you want to update.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remove()&lt;/strong&gt; &lt;br&gt;
+Remove one of your persons from the store database&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;FindOne()&lt;/strong&gt; &lt;br&gt;
+Get the person you inserted earlier in this exercise. You should identify the person from it´s id, and for that you have to use the ObjectID method.&lt;/p&gt;</content:encoded></item><item><title>09.3 Exercise: MongoDB native driver and Express</title><description>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+
+&lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/persons and get a response with the data from the database in JSON format.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/02/json_screenshot.png" alt=""&gt;&lt;/p&gt;</description><link>http://localhost:2368/30/</link><guid isPermaLink="false">1d5ed32c-4f57-4bb4-be74-4aeeeed86902</guid><dc:creator>Claus Bové</dc:creator><pubDate>Wed, 10 Feb 2016 02:17:29 GMT</pubDate><content:encoded>&lt;p&gt;Create an application that makes use of Express.js, MongoDB and the mongodb native driver.&lt;/p&gt;
+
+&lt;p&gt;The goal is, from the browser, to be able to request: localhost:3000/persons and get a response with the data from the database in JSON format.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2016/02/json_screenshot.png" alt=""&gt;&lt;/p&gt;</content:encoded></item><item><title>Node.js Backend Web Development</title><description>&lt;h3 id="teachingschedule"&gt;Teaching Schedule&lt;/h3&gt;
 
 &lt;table id="tbl"&gt;  
 &lt;tr&gt;  
@@ -185,8 +294,7 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex6.html"&gt;List Directory (ls)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex7.html"&gt;Remove Directory (rmdir)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex9.html"&gt;Making Empty Files (Touch, New-Item)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex14.html"&gt;Removing A File (rm)&lt;/a&gt;&lt;/li&gt;
-*&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://cli.learncodethehardway.org/book/ex14.html"&gt;Removing A File (rm)&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Node.js&lt;/p&gt;
@@ -205,7 +313,8 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/stream.html"&gt;Stream&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/timers.html"&gt;Timers&lt;/a&gt;  &lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/url.html"&gt;URL&lt;/a&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/util.html"&gt;util&lt;/a&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/util.html"&gt;util&lt;/a&gt;  &lt;/li&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/events.html"&gt;Events&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Express.js &lt;/p&gt;
@@ -339,19 +448,13 @@ Before the start of this day 6 class, you should have completed the online Lynda
 
 &lt;p&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=06"&gt;Materials from today&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 2 - Basic HTML &amp; CSS</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 11/02-2016, 08:30 - 13:20   &lt;/p&gt;
 
-&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 11/02-2016, 08:30 - 13:20   &lt;/p&gt;
+&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;
 
-&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Websockets</title><description>&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
+&lt;p&gt;Materials for this class: &lt;a href="https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit"&gt;Google Docs&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/21/</link><guid isPermaLink="false">41112ee1-60a4-4a4c-9b75-e322cc944d42</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 14 Dec 2015 15:27:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/html-css-js-logos-1.png" alt="Day 2 - Basic HTML &amp; CSS"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 11/02-2016, 08:30 - 13:20   &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;
 
-&lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.io Docs&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href="http://socket.io/get-started/chat/"&gt;Get Started:&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
+&lt;p&gt;Materials for this class: &lt;a href="https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit"&gt;Google Docs&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Websockets</title><description>&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
 
@@ -360,6 +463,17 @@ Before the start of this day 6 class, you should have completed the online Lynda
 &lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/events.html"&gt;Events &lt;small&gt;(Node.js Docs)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/events.html"&gt;Events &lt;small&gt;(Node.js Docs)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.io Docs&lt;/a&gt; &lt;/li&gt;
 &lt;li&gt;&lt;a href="http://socket.io/get-started/chat/"&gt;Get Started: Chat application&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -390,152 +504,4 @@ Sign in to the network (like you normally do) &lt;br&gt;
 Go to: &lt;a href="http://iplogin.lynda.com/"&gt;http://iplogin.lynda.com/&lt;/a&gt; &lt;br&gt;
 Sign up using your KEA-mail and password. &lt;br&gt;
 Have fun learning! &lt;br&gt;
-At this stage you can log in to Lynda.com from any network (from home e.g.).&lt;/p&gt;</content:encoded></item><item><title>Day 5 - Node.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 4/3-2016, 08:30 - 13:20&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt; &lt;br&gt;
-Before this class number 5 you should have completed &lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;these&lt;/a&gt; tutorials on node.js basic features.&lt;/p&gt;
-
-&lt;p&gt;In todays class we will look at Node.js core features.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;Node.js Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(2h 11m)&lt;/small&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Node.js v4.2.4 Documentation&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/16/</link><guid isPermaLink="false">b9f3fedc-7c6d-4046-9831-9ec3dbfa6204</guid><category>Node.js</category><dc:creator>Claus Bové</dc:creator><pubDate>Sat, 12 Dec 2015 20:17:51 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/nodejs--1-.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/nodejs--1-.png" alt="Day 5 - Node.js"&gt;&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 4/3-2016, 08:30 - 13:20&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt; &lt;br&gt;
-Before this class number 5 you should have completed &lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;these&lt;/a&gt; tutorials on node.js basic features.&lt;/p&gt;
-
-&lt;p&gt;In todays class we will look at Node.js core features.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;  &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;Node.js Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(2h 11m)&lt;/small&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Node.js v4.2.4 Documentation&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/documentation.html"&gt;About this Documentation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/synopsis.html"&gt;Synopsis&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/buffer.html"&gt;Buffer&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/fs.html"&gt;File System&lt;/a&gt;   &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/globals.html"&gt;Global Objects&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/modules.html"&gt;Modules&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/path.html"&gt;Path&lt;/a&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/readline.html"&gt;Readline&lt;/a&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/stream.html"&gt;Stream&lt;/a&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/timers.html"&gt;Timers&lt;/a&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/url.html"&gt;URL&lt;/a&gt;  &lt;/li&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/util.html"&gt;util&lt;/a&gt;  &lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="https://docs.npmjs.com/files/package.json"&gt;Package.json&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;   &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;NPM &lt;br&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href="https://docs.npmjs.com/getting-started/what-is-npm"&gt;Getting Started 01-14&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://thenodeway.io/posts/understanding-error-first-callbacks/"&gt;Understanding Error-First Callbacks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D"&gt;Philip Roberts: What the heck is the event loop anyway?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.tutorialspoint.com/nodejs/index.htm"&gt;http://www.tutorialspoint.com/nodejs/index.htm&lt;/a&gt;   &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://latentflip.com/loupe/"&gt;Loupe&lt;/a&gt;  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;npm install learnyounode -g  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Node weekly&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Code on Github:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=05"&gt;Materials from today&lt;/a&gt;   &lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title>Day 3 - Version Control with Git</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 14:15 - 16:30 &amp;amp; &lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 18/2 - 2016, 15:15 - 15:45&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notice that the time for this class is different than the normal friday classes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Place: L37,  1-A-08 &amp;amp; 1-A-09&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://driven.azurewebsites.net/git-typical-use-cases/"&gt;Link to materials used in the teachings&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Christian Kirschberg will&lt;/p&gt;</description><link>http://localhost:2368/14/</link><guid isPermaLink="false">d271a74e-99d5-495b-b5eb-0726fa0f3a73</guid><category>Git</category><dc:creator>Claus Bové</dc:creator><pubDate>Tue, 08 Dec 2015 17:00:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/Git-Logo-1788C.png" alt="Day 3 - Version Control with Git"&gt;&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 15/2 - 2016, 14:15 - 16:30 &amp;amp; &lt;br&gt;
-&lt;strong&gt;Time:&lt;/strong&gt; 18/2 - 2016, 15:15 - 15:45&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Notice that the time for this class is different than the normal friday classes&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Place: L37,  1-A-08 &amp;amp; 1-A-09&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://driven.azurewebsites.net/git-typical-use-cases/"&gt;Link to materials used in the teachings&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Christian Kirschberg will teach "Working with version control git" for the NodeJs and AngularJs courses. &lt;br&gt;
-Claus Bové will assist.&lt;/p&gt;
-
-&lt;p&gt;Using Git will give you experience working with a versioning control system. We highly recommend that you use it for your exam project (and work in a group) to practice using it. Any IT company that develops software, will have a versioning control system.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://driven.azurewebsites.net/git-typical-use-cases/"&gt;Link to materials used in the teachings&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>#1 Tutorial: My first Webserver</title><description>&lt;p&gt;In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website.&lt;/p&gt;
-
-&lt;p&gt;You will be guided through installing Node.js on your computer, creating a webserver on your Node.&lt;/p&gt;</description><link>http://localhost:2368/my-first-webserver/</link><guid isPermaLink="false">526718b1-0ae0-45db-a2be-250693b455d4</guid><category>Day 1</category><category>Node.js</category><category>Getting Started</category><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 07 Dec 2015 01:47:41 GMT</pubDate><content:encoded>&lt;p&gt;In this forst tutorial you are going to create a webserver with a webpage and deploy it to an online host. So the result will be your first, public accessable Node.js website.&lt;/p&gt;
-
-&lt;p&gt;You will be guided through installing Node.js on your computer, creating a webserver on your Node.js installation. This webserver will be accessable to anyone on the local network you are currently on. Then you will create an account at Heroku, a host, where you will be deploying your new website. At the end you will be deploying the website to Azure and you will have your first Node.js public accesable website up and running.&lt;/p&gt;
-
-&lt;h2 id="installingnodejs"&gt;Installing Node.js&lt;/h2&gt;
-
-&lt;p&gt;First of all you need to download and install Node.js. The Installations is pretty straight forward, but if you need it,  guides kan be found here:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;Installing Node.js on a Mac&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;Installing Node.js on Windows&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://localhost:2368/my-first-webserver/"&gt;Installing Node.js on Linux&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;To test if your installation went ok, and that you have Node.js on your computer, open the console and type:&lt;/p&gt;
-
-&lt;pre&gt;node --version&lt;/pre&gt;
-
-&lt;p&gt;Then you should see something like this:&lt;/p&gt;
-
-&lt;pre&gt;node --version
-v0.12.7&lt;/pre&gt;
-
-&lt;p&gt;The version number could differ in your case. If you do not see this, something went wrong in the installation process, and try to install Node.js again.&lt;/p&gt;
-
-&lt;h2 id="createalocalwebserver"&gt;Create a local Webserver&lt;/h2&gt;
-
-&lt;p&gt;Now let´s create our first server. Create a folder and in it a file called server.js, containing the following code.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-prettyprint javascript"&gt;    var http = require('http');
-    http.createServer(function (req, res) {
-      res.writeHead(200, {'Content-Type': 'text/plain'});
-      res.end('Hello World\n');
-    }).listen(3000);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Start the server from the console by browsing to the folder you just created and type:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class="language-javascript   "&gt;   node server.js   
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now open your browser and type in the url: &lt;a href="http://localhost:3000/"&gt;http://localhost:3000/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/12/Screen-Shot-2015-08-20-at-20-43-51.png" alt=""&gt;&lt;/p&gt;
-
-&lt;p&gt;If what you made now is indeed a webserver, and not just a document saying “Hello World”,  you should be able to access this site from you phone or another computer.&lt;/p&gt;
-
-&lt;p&gt;Get the ip-address of you machine (the server) and then make sure that your phone is on the same network as your computer (the server). Type in 10.108.10.86:3000 (this is my ip, you should of cause use yours).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="http://localhost:2368/content/images/2015/12/iphone-6-verizon-volte.png" alt=""&gt;&lt;/p&gt;
-
-&lt;p&gt;Hopefully you see this, otherwise: “are your devices on the same network” ?  &lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;footer align="right" style="font-size: small"&gt;(heavily inspired by &lt;a href="http://howtonode.org/deploy-blog-to-heroku"&gt;http://howtonode.org/deploy-blog-to-heroku&lt;/a&gt;)&lt;/footer&gt;</content:encoded></item></channel></rss>
+At this stage you can log in to Lynda.com from any network (from home e.g.).&lt;/p&gt;</content:encoded></item></channel></rss>
