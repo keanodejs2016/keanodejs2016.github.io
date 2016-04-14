@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 11 Apr 2016 11:51:25 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>08 Exercise: twitter &amp; socket.io</title><description>&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</description><link>http://localhost:2368/34/</link><guid isPermaLink="false">416abf5f-b45c-4c4c-8481-beefafad559e</guid><category>Socket.io</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 31 Mar 2016 20:23:44 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" alt="08 Exercise: twitter &amp; socket.io"&gt;&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</content:encoded></item><item><title>05 Exercise: learnyounode</title><description>&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 14 Apr 2016 20:06:38 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>08 Exercise: twitter &amp; socket.io</title><description>&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</description><link>http://localhost:2368/34/</link><guid isPermaLink="false">416abf5f-b45c-4c4c-8481-beefafad559e</guid><category>Socket.io</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 31 Mar 2016 20:23:44 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" alt="08 Exercise: twitter &amp; socket.io"&gt;&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</content:encoded></item><item><title>05 Exercise: learnyounode</title><description>&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
 
 &lt;p&gt;It is run through the console and everything is explained along the way. &lt;br&gt;
 This workshop covers what you have seen in the &lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;Lynda.com tutorials for this class&lt;/a&gt;, and you will have to use the &lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/"&gt;node documentation&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/33/</link><guid isPermaLink="false">b8254e62-c51c-4514-94b2-aed86e5a9d61</guid><category>Node.js</category><category>Exercises</category><category>Day 5</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 03 Mar 2016 23:04:32 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/learnyounode.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/learnyounode.png" alt="05 Exercise: learnyounode"&gt;&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
@@ -436,6 +436,12 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;li&gt;&lt;a href="https://www.w3.org/wiki/CORS_Enabled#What_is_CORS_about.3F"&gt;CORS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;&lt;strong&gt;supplements to the curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Node-js-tutorials/Readable-file-streams/417077/454449-4.html?autoplay=true"&gt;steams&lt;/a&gt;   &lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
@@ -455,6 +461,12 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;li&gt;&lt;a href="http://www.restapitutorial.com/media/RESTful_Best_Practices-v1_1.pdf"&gt;RESTful Best Practices&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://json.org/"&gt;JSON&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.w3.org/wiki/CORS_Enabled#What_is_CORS_about.3F"&gt;CORS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;supplements to the curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Node-js-tutorials/Readable-file-streams/417077/454449-4.html?autoplay=true"&gt;steams&lt;/a&gt;   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
