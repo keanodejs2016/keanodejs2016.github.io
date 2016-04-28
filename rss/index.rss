@@ -1,4 +1,30 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Sat, 23 Apr 2016 13:29:41 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>08 Exercise: twitter &amp; socket.io</title><description>&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</description><link>http://localhost:2368/34/</link><guid isPermaLink="false">416abf5f-b45c-4c4c-8481-beefafad559e</guid><category>Socket.io</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 31 Mar 2016 20:23:44 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" alt="08 Exercise: twitter &amp; socket.io"&gt;&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</content:encoded></item><item><title>05 Exercise: learnyounode</title><description>&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 28 Apr 2016 21:54:48 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;users&lt;/li&gt;
+&lt;li&gt;products &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And you should be able to view an API in the browser and get, post, put and delete through this api.&lt;/p&gt;
+
+&lt;p&gt;On this&lt;/p&gt;</description><link>http://localhost:2368/35/</link><guid isPermaLink="false">abefc991-d79b-4729-a162-0d2eb2419319</guid><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 28 Apr 2016 21:39:05 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/04/Screen-Shot-2016-04-28-at-23-45-34.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/04/Screen-Shot-2016-04-28-at-23-45-34.png" alt="11 Exercise: /Orders/"&gt;&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;users&lt;/li&gt;
+&lt;li&gt;products &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And you should be able to view an API in the browser and get, post, put and delete through this api.&lt;/p&gt;
+
+&lt;p&gt;On this &lt;a href="http://clbostore.azurewebsites.net/api/orders/562793b4802faf96447e9b19"&gt;url&lt;/a&gt; you can se an example of how an order should be structured.&lt;/p&gt;
+
+&lt;p&gt;An order has information about one or more products in an order. It has information about the user who placed the order, and it has information about the status of the order.&lt;/p&gt;
+
+&lt;p&gt;Your job is to create 5 routes for the orders. A get, a get one, a post, a put, and a delete route.&lt;/p&gt;</content:encoded></item><item><title>08 Exercise: twitter &amp; socket.io</title><description>&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</description><link>http://localhost:2368/34/</link><guid isPermaLink="false">416abf5f-b45c-4c4c-8481-beefafad559e</guid><category>Socket.io</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 31 Mar 2016 20:23:44 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/twitter-social-network-icon-vector_652139.jpg" alt="08 Exercise: twitter &amp; socket.io"&gt;&lt;p&gt;Based on what we have done today and what you know from the earlier classes create an app that gets the latest tweet containing words of your own choice, and pushes it to a webpage made with the use of the express.js framework.&lt;/p&gt;</content:encoded></item><item><title>05 Exercise: learnyounode</title><description>&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
 
 &lt;p&gt;It is run through the console and everything is explained along the way. &lt;br&gt;
 This workshop covers what you have seen in the &lt;a href="http://www.lynda.com/SharedPlaylist/8330249d6cd34188aebe5aeb9b399491"&gt;Lynda.com tutorials for this class&lt;/a&gt;, and you will have to use the &lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/"&gt;node documentation&lt;/a&gt;&lt;/p&gt;</description><link>http://localhost:2368/33/</link><guid isPermaLink="false">b8254e62-c51c-4514-94b2-aed86e5a9d61</guid><category>Node.js</category><category>Exercises</category><category>Day 5</category><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 03 Mar 2016 23:04:32 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/03/learnyounode.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/03/learnyounode.png" alt="05 Exercise: learnyounode"&gt;&lt;p&gt;Learnyounode is an intro to Node.js via a set of self-guided workshops.&lt;/p&gt;
@@ -450,6 +476,10 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 
 &lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/35/"&gt;/Orders/ route&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
@@ -476,6 +506,10 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://localhost:2368/35/"&gt;/Orders/ route&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;&lt;strong&gt;Tools&lt;/strong&gt;&lt;/p&gt;
 
@@ -561,34 +595,4 @@ Before the start of this day 6 class, you should have completed the online Lynda
 
 &lt;p&gt;Lessons moved: Location Bispevej 5 - Thursday: 08:30-13:20.&lt;/p&gt;
 
-&lt;p&gt;Materials for this class: &lt;a href="https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit"&gt;Google Docs&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 8 - Websockets</title><description>&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/events.html"&gt;Events &lt;small&gt;(Node.js Docs)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/19/</link><guid isPermaLink="false">25721ef1-36e4-4ad1-893a-a4daed92998e</guid><category>Socket.io</category><category>ExpressJs</category><category>Node.js</category><category>Day 8</category><category>Websocket</category><dc:creator>Claus Bové</dc:creator><pubDate>Sun, 13 Dec 2015 00:38:02 GMT</pubDate><media:content url="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2015/12/mean-socket-io-integration-tutorial-socketio-logo.png" alt="Day 8 - Websockets"&gt;&lt;p&gt;Today we will be working with sockets. We will create a chat server, and we will use the socket functionality to get feeds from &lt;em&gt;Twitter&lt;/em&gt; based on tags pushed to our websites. &lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Look through the tutorials in this &lt;a href="http://www.lynda.com/SharedPlaylist/be6272aad8854a0fbc50dbf6627167e0"&gt;Lynda.com Playlist&lt;/a&gt; &lt;small&gt;(23m 17s)&lt;/small&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://nodejs.org/dist/latest-v4.x/docs/api/events.html"&gt;Events &lt;small&gt;(Node.js Docs)&lt;/small&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://socket.io/docs/"&gt;Socket.io Docs&lt;/a&gt; &lt;/li&gt;
-&lt;li&gt;&lt;a href="http://socket.io/get-started/chat/"&gt;Get Started: Chat application&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Supplements to the Curriculum&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;   &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://keanodejs.github.io/34/"&gt;08 Exercise: twitter &amp;amp; socket.io&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Materials for this class: &lt;a href="https://docs.google.com/document/d/1TcPaRu1PBTyH9Z2p_4PLapGIJp5O1TS9clviUKMSL4A/edit"&gt;Google Docs&lt;/a&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
