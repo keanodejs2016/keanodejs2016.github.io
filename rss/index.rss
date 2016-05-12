@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Mon, 02 May 2016 11:21:07 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 12 May 2016 20:03:30 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -546,7 +546,19 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://github.com/keanodejs?utf8=%E2%9C%93&amp;amp;query=04"&gt;Materials from today&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title>Day 12 - Deployment</title><link>http://localhost:2368/23/</link><guid isPermaLink="false">757fc1f0-0a42-44cf-80fe-b4454053f18e</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 08:45:24 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" medium="image"/><content:encoded/></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11/3-2016, 08:30 - 13:20&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title>Day 12 - Deployment</title><description>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;Heroku - Getting started with node.js and MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/p&gt;</description><link>http://localhost:2368/23/</link><guid isPermaLink="false">757fc1f0-0a42-44cf-80fe-b4454053f18e</guid><dc:creator>Claus Bové</dc:creator><pubDate>Mon, 04 Jan 2016 08:45:24 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/01/node-mongodb-on-heroku.png" alt="Day 12 - Deployment"&gt;&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;Heroku - Getting started with node.js and MongoDB&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Exercises&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Github&lt;/strong&gt;&lt;/p&gt;</content:encoded></item><item><title>Day 6 - Express.js</title><description>&lt;p&gt;&lt;strong&gt;Time&lt;/strong&gt;: 11/3-2016, 08:30 - 13:20&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;Prequisite&lt;/strong&gt;&lt;/em&gt; &lt;br&gt;
 Before the start of this day 6 class, you should have completed the online Lynda.com tutorial on   &lt;/p&gt;
