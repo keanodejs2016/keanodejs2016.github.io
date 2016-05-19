@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 19 May 2016 11:03:26 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Node.js</title><description>Backend Development</description><link>http://localhost:2368/</link><generator>Ghost 0.7</generator><lastBuildDate>Thu, 19 May 2016 11:15:38 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>11 Exercise: /Orders/</title><description>&lt;p&gt;In this exercise you should finish the Store API by enabling it to handle &lt;strong&gt;orders&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;You should now have 2 collections in your store database:&lt;/p&gt;
 
@@ -341,11 +341,19 @@ for(i = 1; i &lt; rows.length; i++){
 The following resources is the course curriculum. &lt;br&gt;
 Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
 
-&lt;p&gt;* &lt;small&gt;&lt;em&gt;Note that this is not a complete list yet, it will grow as we advance through&lt;/em&gt;&lt;/small&gt;&lt;/p&gt;</description><link>http://localhost:2368/29/</link><guid isPermaLink="false">df5fcfa1-e2c2-43c6-8644-b043250305ad</guid><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:39:34 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
+&lt;!-- \* &lt;small&gt;_Note that this is not a complete list yet, it will grow as we advance through the elective._ &lt;/small&gt; --&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You should now the code and examples used in the teachings and in the exercises.&lt;/p&gt;</description><link>http://localhost:2368/29/</link><guid isPermaLink="false">df5fcfa1-e2c2-43c6-8644-b043250305ad</guid><dc:creator>Claus Bové</dc:creator><pubDate>Thu, 04 Feb 2016 14:39:34 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Curriculum&lt;/strong&gt; &lt;br&gt;
 The following resources is the course curriculum. &lt;br&gt;
 Your exam project should demonstrate the use of topics from this curriculum and you will furthermore be asked questions from this curriculum at the oral exam.&lt;/p&gt;
 
-&lt;p&gt;* &lt;small&gt;&lt;em&gt;Note that this is not a complete list yet, it will grow as we advance through the elective.&lt;/em&gt; &lt;/small&gt;&lt;/p&gt;
+&lt;!-- \* &lt;small&gt;_Note that this is not a complete list yet, it will grow as we advance through the elective._ &lt;/small&gt; --&gt;
+
+&lt;p&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You should now the code and examples used in the teachings and in the exercises. You can find the code &lt;a href="https://github.com/keanodejs"&gt;here on GitHub&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Command Line Client&lt;/strong&gt;&lt;/p&gt;
 
@@ -417,6 +425,12 @@ Your exam project should demonstrate the use of topics from this curriculum and 
 &lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/tutorial/remove-documents/"&gt;https://docs.mongodb.org/manual/tutorial/remove-documents/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.mongodb.org/manual/core/data-modeling-introduction/"&gt;Data Modeling Introduction&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://expressjs.com/en/guide/database-integration.html#mongo"&gt;http://expressjs.com/en/guide/database-integration.html#mongo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Deployment&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#introduction"&gt;Getting Started on Heroku with Node.js&lt;/a&gt; (The whole introduction)&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title>Day 1 - Introduction</title><description>&lt;p&gt;&lt;strong&gt;Time:&lt;/strong&gt; 5/2-2016, 08:30 - 13:20&lt;/p&gt;
 
 &lt;p&gt;In this first class you will get introduced to what we are going to work on the next 14 weeks.   &lt;/p&gt;
